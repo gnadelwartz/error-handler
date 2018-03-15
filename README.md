@@ -1,3 +1,3 @@
 # talk-with-me
 
-since private messages no more exits, you can use this pseudo repo to open an issue for offtopic / private  questions
+since private messages no more exists, you can use this pseudo repo to open an issue for offtopic / private  questions
