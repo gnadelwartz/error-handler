@@ -1,0 +1,16 @@
+Hi Kay,
+
+Just wanted to say thankyou for your post about slow loading of dashboard on Webmin. It made me think a bit more about my own systems.
+
+I had a bit more of a poke at mine after it got slow again, and I might have fixed it. 
+
+I'm not going to reply to the main thread yet, as it may break again :-/
+
+The option I've disabled is the "Reverse-resolve connected IP address" in the "Ports and Addresses" page.
+
+It seems that it struggles. I think it's because my main workstation is on DHCP, and therefore doesn't have an entry in 
+my local network DNS server (I don't have DHCP linked into DNS), so Webmin might be sitting spinning in a loop unneccessarily, 
+trying to reverse-resolve, eventually giving up.
+
+Matt
+-------------------------------------------------------
